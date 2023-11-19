@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+nav {
+    background-color: #81D8D0; /* Tiffany blue/green */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #81D8D0; /* Tiffany blue/green */
+}
+
+.content {
+    padding: 20px;
+}
