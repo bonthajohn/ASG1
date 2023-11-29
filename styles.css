@@ -1,28 +1,50 @@
 body {
-    margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: white;
+    background-color: #CCE3D9; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+    margin: 30px
 }
 
 nav {
-    background-color: #81D8D0; /* Tiffany blue/green */
+    background-color: #fff; 
     overflow: hidden;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
+    display: inline-block;
+    color: #00526B; 
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: white;
-    color: #81D8D0; /* Tiffany blue/green */
+    background-color: #81D8D0;
+    color: #fff; 
 }
 
-.content {
-    padding: 20px;
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    background-color:#81D8D0 ;
 }
+table {
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    font-size: xx-large;
+    border: "3";
+    border-collapse: collapse;
+    background-color: white;
+    color: #00526B;
+    padding: 20px;
+    }
+    img{
+        width:600px;
+        height: 500px;
+    }
