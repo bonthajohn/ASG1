@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <!-- Set the title of the webpage -->
     <title>We-Wed Co.-clothing</title>
+
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Second-Hand/Pre-Owned Clothing</h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="clothing.html">Clothing</a>
-    <a href="entertainment.html">Entertainment</a>
-    <a href="decorations.html">Decorations</a>
-    <a href="media.html">Media</a>
-</nav>
-<table border="3" style="border-collapse:collapse">
-<tr>
-    <td style="font-size:x-large">Look your best on your wedding day without the worry! We provide a range of different brands of wedding clothing that offers both sophistication and affordability, so you can achieve a stunning look for you and your wedding party without breaking the bank. Whether you choose ready-to-wear or rental options, you'll find the ideal outfits to make your walk down the aisle perfect.</td>
-</tr>
-</table>
-<div class="dropdown">
-    <button class="dropbtn">Select Clothing Option</button>
-    <div class="dropdown-content">
-        <a href="clothing.html">Off-the-Rack</a>
-        <a href="secondhand.html">Second-Hand/Pre-Owned</a>
-        <a href="rental.html">Rental</a>
+    <!-- Heading for the Second-Hand/Pre-Owned Clothing section -->
+    <h1>Second-Hand/Pre-Owned Clothing</h1>
+
+    <!-- Navigation bar with links to different sections -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="clothing.html">Clothing</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="decorations.html">Decorations</a>
+        <a href="media.html">Media</a>
+    </nav>
+
+    <!-- Table containing information Clothing category -->
+    <table border="3">
+        <tr>
+            <!-- Cell with a message about the available wedding clothing -->
+            <td style="font-size:x-large">Look your best on your wedding day without the worry! We provide a range of different brands of wedding clothing that offers both sophistication and affordability, so you can achieve a stunning look for you and your wedding party without breaking the bank. Whether you choose ready-to-wear or rental options, you'll find the ideal outfits to make your walk down the aisle perfect.</td>
+        </tr>
+    </table>
+
+    <!-- Dropdown menu for selecting different clothing options -->
+    <div class="dropdown">
+        <button class="dropbtn">Select Clothing Option</button>
+        <div class="dropdown-content">
+            <a href="clothing.html">Off-the-Rack</a>
+            <a href="secondhand.html">Second-Hand/Pre-Owned</a>
+            <a href="rental.html">Rental</a>
+        </div>
     </div>
-</div>
-<center><img src="images/London_vintage_suit_1970s_1__04140.jpg"</center>
-<h2>Harrods London Vintage Suit 1970s Flared Tailored By Chester Barrie</h2>
-<p>$160.60</p>
-<center><img src="images/allure-bridals-fit-and-flare-allure-edition-p823-pearl-2015-6326fdceacbe5_73d7b05a-4f78-440b-ba7e-6b1814a2688a_1728x.webp" width="400" height="500"</center>
-<h2>Allure Bridals Allure Edition P823</h2>
-<p>$189</p>
+
+    <!-- Centered image of Harrods London Vintage Suit -->
+    <div class="clothing-item">
+    <center><img src="images/Second hand suit.jpg"></center>
+    <!-- Heading and price for Harrods London Vintage Suit -->
+    <h2>Harrods London Vintage Suit 1970s Flared Tailored By Chester Barrie</h2>
+    <p>$160.60</p>
+    </div>
+
+    <!-- Centered image of Allure Bridals Allure Edition P823 -->
+    <div class="clothing-item">
+    <center><img src="images/Second hand wedding dress.webp"</center>
+    <!-- Heading and price for Allure Bridals Allure Edition P823 -->
+    <h2>Allure Bridals Allure Edition P823</h2>
+    <p>$189</p>
+    </div>
+    <!-- Button to go to the top of the page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Script tag linking to an external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>

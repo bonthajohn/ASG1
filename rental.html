@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <!-- Set the title of the webpage -->
     <title>We-Wed Co.-clothing</title>
+
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Rental Clothing</h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="clothing.html">Clothing</a>
-    <a href="entertainment.html">Entertainment</a>
-    <a href="decorations.html">Decorations</a>
-    <a href="media.html">Media</a>
-</nav>
-<table border="3" style="border-collapse:collapse">
-<tr>
-    <td style="font-size:x-large">Look your best on your wedding day without the worry! We provide a range of different brands of wedding clothing that offers both sophistication and affordability, so you can achieve a stunning look for you and your wedding party without breaking the bank. Whether you choose ready-to-wear or rental options, you'll find the ideal outfits to make your walk down the aisle perfect.</td>
-</tr>
-</table>
-<div class="dropdown">
-    <button class="dropbtn">Select Clothing Option</button>
-    <div class="dropdown-content">
-        <a href="clothing.html">Off-the-Rack</a>
-        <a href="secondhand.html">Second-Hand/Pre-Owned</a>
-        <a href="rental.html">Rental</a>
+    <!-- Heading for the Rental Clothing section -->
+    <h1>Rental Clothing</h1>
+
+    <!-- Navigation bar with links to different sections -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="clothing.html">Clothing</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="decorations.html">Decorations</a>
+        <a href="media.html">Media</a>
+    </nav>
+
+    <!-- Table containing information about Rental Clothing -->
+    <table border="3" style="border-collapse:collapse">
+        <tr>
+            <!-- Cell with a message about the available wedding clothing -->
+            <td style="font-size:x-large">Look your best on your wedding day without the worry! We provide a range of different brands of wedding clothing that offers both sophistication and affordability, so you can achieve a stunning look for you and your wedding party without breaking the bank. Whether you choose ready-to-wear or rental options, you'll find the ideal outfits to make your walk down the aisle perfect.</td>
+        </tr>
+    </table>
+
+    <!-- Dropdown menu for selecting different clothing options -->
+    <div class="dropdown">
+        <button class="dropbtn">Select Clothing Option</button>
+        <div class="dropdown-content">
+            <a href="clothing.html">Off-the-Rack</a>
+            <a href="secondhand.html">Second-Hand/Pre-Owned</a>
+            <a href="rental.html">Rental</a>
+        </div>
     </div>
-</div>
-<center><img src="images/01a-my-singapore-tailor-suits-rent-rental-hire_suit-shop-singapore-black-tie-wedding-tuxedo-bespoke-tailoring-tailors-tail.jpg" width="400" height="500"</center>
-<h2>01A – Suits Rental – Rent/Hire a Suit – My Singapore Tailor</h2>
-<p>$219</p>
-<center><img src="images/London1-min.webp" width="400" height="500"</center>
-<h2>London Sheath Wedding Gown</h2>
-<p>$189</p>
+
+    <!-- Centered image of 01A – Suits Rental – My Singapore Tailor -->
+    <div class="clothing-item">
+    <center><img src="images/Rental suit.jpg" width="400" height="500"></center>
+    <!-- Heading and price for 01A – Suits Rental – My Singapore Tailor -->
+    <h2>01A – Suits Rental – Rent/Hire a Suit – My Singapore Tailor</h2>
+    <p>$219</p>
+    </div>
+
+    <!-- Centered image of London Sheath Wedding Gown -->
+    <div class="clothing-item">
+    <center><img src="images/Rental wedding dress.webp"></center>
+    <!-- Heading and price for London Sheath Wedding Gown -->
+    <h2>London Sheath Wedding Gown</h2>
+    <p>$189</p>
+    </div>
+    <!-- Button to go to the top of the page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Script tag linking to an external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>

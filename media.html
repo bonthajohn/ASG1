@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-    <title>We-Wed Co.-Photography/Videography services</title>
+    <!-- Set the title of the webpage -->
+    <title>We-Wed <Co class="-Media"></Co></title>
+
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Media</h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="clothing.html">Clothing</a>
-    <a href="entertainment.html">Entertainment</a>
-    <a href="decorations.html">Decorations</a>
-    <a href="media.html">Media</a>
-</nav>
-<table border="3" style="border-collapse:collapse">
-    <tr>
-        <td style="font-size:x-large">Experience your wedding day all over again with our cost-effective media services. Our skilled photographers and videographers will capture every aspect of your special day, from the heartfelt vows to the lively dance floor festivities. Treasure these memories for a lifetime with our reasonably priced, top-notch media packages.</td>
-    </tr>
+    <!-- Heading for the Media section -->
+    <h1>Media</h1>
+
+    <!-- Navigation bar with links to different sections -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="clothing.html">Clothing</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="decorations.html">Decorations</a>
+        <a href="media.html">Media</a>
+    </nav>
+
+    <!-- Table containing information about Photography/Videography services -->
+    <table border="3">
+        <tr>
+            <!-- Cell with a message about the available media services -->
+            <td style="font-size:x-large">Experience your wedding day all over again with our cost-effective media services. Our skilled photographers will capture every aspect of your special day, from the heartfelt vows to the lively dance floor festivities. Treasure these memories for a lifetime with our reasonably priced, top-notch media packages.</td>
+        </tr>
     </table>
+
+    <!-- Image gallery container -->
     <div id="gallery-container">
-        <center><img class="gallery-img" src="images/photo_2023-11-29_19-32-37.jpg" alt="Image 1" width="650" height="450"></center>
-        <center><img class="gallery-img" src="images/photo_2023-11-29_19-32-56.jpg" alt="Image 2" width="650" height="450"></center>
-        <center><img class="gallery-img" src="images/photo_2023-11-29_19-33-06.jpg" alt="Image 3" width="650" height="450"></center>
-        <center><img class="gallery-img" src="images/photo_2023-11-29_19-33-31.jpg" alt="Image 3" width="650" height="450"></center>
-        <center><img class="gallery-img" src="images/photo_2023-11-29_19-33-45.jpg" alt="Image 3" width="650" height="450"></center>
+        <!-- Centered images for the gallery -->
+        <div class="media-item img">
+        <center><img class="gallery-img" src="images/Wedding photography 1.jpg" alt="Image 1"></center>
+        <center><img class="gallery-img" src="images/Wedding photography 2.jpg" alt="Image 2"></center>
+        <center><img class="gallery-img" src="images/Wedding photography 3.jpg" alt="Image 3" ></center>
+        <center><img class="gallery-img" src="images/Wedding photography 4.jpg" alt="Image 4"></center>
+        <center><img class="gallery-img" src="images/Wedding photography 5.jpg" alt="Image 5"></center>
+        </div>
+
+        <!-- Buttons for navigating the gallery -->
         <button id="prevBtn" onclick="changeImage(-1)">Previous</button>
         <button id="nextBtn" onclick="changeImage(1)">Next</button>
     </div>
-<script src="script.js"></script>
+
+    <!-- Script tag linking to an external JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- Centered heading for Photographers -->
     <center><h2>Photographers</h2></center>
+    <!-- Centered price for Photography services -->
     <center><p>Upto $3000</p></center>
 </body>
 </html>

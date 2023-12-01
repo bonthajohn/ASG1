@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <!-- Set the title of the webpage -->
     <title>We-Wed Co.-Entertainment</title>
+
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Entertainment</h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="clothing.html">Clothing</a>
-    <a href="entertainment.html">Entertainment</a>
-    <a href="decorations.html">Decorations</a>
-    <a href="media.html">Media</a>
-</nav>
-<table border="3" style="border-collapse:collapse">
-    <tr>
-        <td style="font-size:x-large">Our affordable entertainment options offer the opportunity to create lasting memories. Whether you prefer a live band, a DJ playing your favorite songs, or a mix of both, our entertainment services ensure a joyful celebration with unforgettable moments.</td>
-    </tr>
+    <!-- Heading for the Entertainment section -->
+    <h1>Entertainment</h1>
+
+    <!-- Navigation bar with links to different sections -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="clothing.html">Clothing</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="decorations.html">Decorations</a>
+        <a href="media.html">Media</a>
+    </nav>
+
+    <!-- Table containing information about Entertainment options -->
+    <table border="3">
+        <tr>
+            <!-- Cell with a message about the available entertainment options -->
+            <td style="font-size:x-large">Our affordable entertainment options offer the opportunity to create lasting memories. Whether you prefer a live band, a DJ playing your favorite songs, or a mix of both, our entertainment services ensure a joyful celebration with unforgettable moments.</td>
+        </tr>
     </table>
-    <center><img src="images/paul-cave-01.jpg" width="650" height="500"</center>
+
+    <!-- Centered image for Live Band -->
+    <div class="entertainment-item img">
+    <center><img src="images/Live band.jpg"></center>
+    <!-- Heading and price for Live Band -->
     <h2>Live Band</h2>
     <p>Upto $500 per hour</p>
-    <center><img src="images/Live-Band-Vs-DJ-At-Wedding-Reception-Wedding-Photographer-Huntsville-Alabama_8073.jpg" width="650" height="500"</center>
+    </div>
+
+    <!-- Centered image for Live DJ -->
+    <div class="entertainment-item img">
+    <center><img src="images/Live DJ.jpg"></center>
+    <!-- Heading and price for Live DJ -->
     <h2>Live DJ</h2>
     <p>Upto $1000 per hour</p>
-    <center><img src="images/Wedding+Magician+Cambridge+performing+at+RSC+House+wedding+venue++.jpg" width="650" height="500"</center>
+    </div>
+
+    <!-- Centered image for Magician -->
+    <div class="entertainment-item img">
+    <center><img src="images/Magician.jpg"></center>
+    <!-- Heading and price for Magician -->
     <h2>Magician</h2>
     <p>Upto $500 per hour</p>
-    <center><img src="images/openair_allstarphotobooth.jpg" width="650" height="500"</center>
+    </div>
+
+    <!-- Centered image for Photo booths -->
+    <div class="entertainment-item img">
+    <center><img src="images/Photobooth.jpg"></center>
+    <!-- Heading and price for Photo booths -->
     <h2>Photo booths</h2>
     <p>Upto $1000 per hour</p>
+    </div>
+
+    <!-- Button to go to the top of the page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Script tag linking to an external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
