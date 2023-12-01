@@ -35,9 +35,9 @@ Previous/Next button: For user, to navigate the photos the website shows easily.
  
 
 ## Technologies Used
-HTML
-Cascading Style Sheets
-Javascript
+- HTML
+- Cascading Style Sheets
+- Javascript
 
 ## Credits
 
