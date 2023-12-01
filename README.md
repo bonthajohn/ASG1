@@ -26,12 +26,12 @@ In general, this design matches the theme of wedding services and creates a visu
 
 ## Features
 
-Navigation bar: For user to toggle between the different services the website has.
-Email link: With one click on the company's email address, it will automatically direct them to the email app to start writing to them.
-Phone link: With one click on the company's phone number, it will automatically direct them to the phone app to start callling them.
-Dropdown menu: For user to explore the different types of service.
-Top button: After scrolling down too much, user can click on the button to bring them back to the top of the page to easily access the navigation bar again.
-Previous/Next button: For user, to navigate the photos the website shows easily.
+- Navigation bar: For user to toggle between the different services the website has.
+- Email link: With one click on the company's email address, it will automatically direct them to the email app to start writing to them.
+- Phone link: With one click on the company's phone number, it will automatically direct them to the phone app to start callling them.
+- Dropdown menu: For user to explore the different types of service.
+- Top button: After scrolling down too much, user can click on the button to bring them back to the top of the page to easily access the navigation bar again.
+- Previous/Next button: For user, to navigate the photos the website shows easily.
  
 
 ## Technologies Used
