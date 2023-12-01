@@ -65,4 +65,4 @@ In general, this design matches the theme of wedding services and creates a visu
 -Table decor-https://www.hitched.co.uk/wedding-planning/ceremony-and-reception/wedding-table-decorations-for-your-reception/
 - Signage-https://ohfriday.com/shop/minimalist-welcome-wedding-signage/
 - Backdrop and drapery-https://thebudgetsavvybride.com/how-to-set-up-a-diy-wedding-backdrop/
-
+- Wedding photography 1-6 was sourced by a friend of mine's wedding. I've got his permission to use it for this assignment.
